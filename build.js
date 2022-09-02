@@ -13,7 +13,8 @@ esbuild.build({
 esbuild.build({
   entryPoints: ["src/browser.ts"],
   bundle: true,
-  minify: true,
+  minify: false,
+  sourcemap: true,
   outfile: "static/browser.js",
   platform: "browser"
 }).catch((reason) => {
