@@ -11,7 +11,7 @@ const gameData: GameData = {
   players: [],
 };
 
-app.use(express.static("static"));
+app.use(express.static("dist/static"));
 
 const getRandomIntegerLessThan = (max: number): number => Math.floor(Math.random() * max);
 

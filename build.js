@@ -15,7 +15,7 @@ esbuild.build({
   bundle: true,
   minify: false,
   sourcemap: true,
-  outfile: "static/browser.js",
+  outfile: "dist/static/browser.js",
   platform: "browser"
 }).catch((reason) => {
   console.error(reason);
