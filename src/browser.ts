@@ -115,11 +115,11 @@ class MyScene extends Phaser.Scene {
   }
 }
 
-var config = {
+const config = {
   type: Phaser.AUTO,
   width: 800,
   height: 600,
   scene: new MyScene({}),
 };
 
-var game = new Phaser.Game(config);
+new Phaser.Game(config);
